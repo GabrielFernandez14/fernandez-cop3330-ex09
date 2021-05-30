@@ -33,7 +33,7 @@ public class App
         double area = length * width / GALLON;
 
         // Print the output
-        System.out.println("You will need to purchase " + Math.round(area) + " gallons of paint to cover "
-                            + GALLON + " square feet.");
+        System.out.println("You will need to purchase " + Math.round(area)
+                + " gallons of paint to cover " + GALLON + " square feet.");
     }
 }
